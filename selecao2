@@ -1,0 +1,28 @@
+func main() {
+	var n1 int
+	var n2 int
+	var n3 int
+	fmt.Print("Diga um número x :")
+	fmt.Scan(&n1)
+	fmt.Print("Diga outro número y :")
+	fmt.Scan(&n2)
+	fmt.Print("Digite mais um número z :")
+	fmt.Scan(&n3)
+	x := n1
+	y := n2
+	z := n3
+
+	if x < y && x < z {
+
+		fmt.Println("x é o menor número")
+
+	}
+	if y < x && y < z {
+		fmt.Println("y é o menor número")
+
+	}
+	if z < x && z < y {
+		fmt.Println("z é o menor número")
+	}
+
+}
